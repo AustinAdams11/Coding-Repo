@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AustinAdams11/Coding-Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinAdams11/Coding-Repo/issues"
+  },
+  "homepage": "https://github.com/AustinAdams11/Coding-Repo#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
