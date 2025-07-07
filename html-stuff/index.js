@@ -12,4 +12,4 @@ const myFunction = (number) => {
       let number = 0
     console.log functionArray
   }
-}test222
+}
