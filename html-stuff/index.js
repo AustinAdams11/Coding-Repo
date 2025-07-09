@@ -1,15 +1,16 @@
-const myFunction = (number) => {
-  const functionArray = [
-    (num) => (num += 1),
-    (num) => (num *= 2),
-    (num) => (num *= 534),
-    (num) => (num /= 1),
-    (num) => (math.round()),
-    // add function here...
-  ];
-
-  for (const number of functionArray) {
-      let number = 0
-    console.log functionArray
-  }
+let x = 10;
+let result;
+const firstFunction = () => {
+  const secondX = x + 5;
+  secondFunction(secondX);
 }
+const secondFunction = (x) => {
+  x += 5;
+  thirdFunction(x);
+}
+const thirdFunction = (num) => {
+  x += 5;
+  result = x;
+}
+firstFunction();
+return result
